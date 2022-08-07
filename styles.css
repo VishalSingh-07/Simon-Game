@@ -1,0 +1,171 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+  line-height: 2;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.button {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+.btn{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  height: 4rem;
+  width: 10rem;
+  margin-right: 2rem;
+}
+.btn:hover{
+  background-color: #FEF2BF;
+
+}
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+a{
+    color: #DBEDF3;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top:4rem;
+}
+
+a:hover {
+    color: #FFD32D;
+}
+
+.icons {
+    color: #DBEDF3;
+    text-decoration: underline;
+    margin: 0 0 0 0.6rem;
+}
+
+.icons:hover {
+    color: #FFD32D
+}
+/*For tablet landscape*/
+@media (min-width:993px) and (max-width:1024px) {
+    
+  #level-title
+  {
+    margin-top:7rem;
+    font-size:3rem;
+  }
+  .green
+  {
+    position:relative;
+    right:160px;
+    top:200px;
+  }
+  .red
+  {
+    position:relative;
+    left:180px;
+    bottom:80px;
+  }
+  .yellow
+  {
+    position:relative;
+    right:160px;
+    bottom:20px;
+  }
+  .blue
+  {
+    position:relative;
+    left:180px;
+    bottom:300px;
+  }
+  a
+  {
+    font-size: 2.5rem;
+
+  }
+
+
+}
+/* Fot Tablet*/
+@media (min-width:768px) and (max-width:992px) {
+    
+  #level-title
+  {
+    margin-top:7rem;
+    font-size:3rem;
+  }
+  .green
+  {
+    position:relative;
+    right:160px;
+    top:200px;
+  }
+  .red
+  {
+    position:relative;
+    left:180px;
+    bottom:80px;
+  }
+  .yellow
+  {
+    position:relative;
+    right:160px;
+    bottom:20px;
+  }
+  .blue
+  {
+    position:relative;
+    left:180px;
+    bottom:300px;
+  }
+  a
+  {
+    font-size: 2.5rem;
+
+  }
+  .btn{
+    margin-top: 4rem;
+  }
+
+
+}
