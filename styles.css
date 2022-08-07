@@ -18,7 +18,7 @@ body {
 
 }
 
-.btn {
+.button {
   margin: 25px;
   display: inline-block;
   height: 200px;
@@ -26,7 +26,17 @@ body {
   border: 10px solid black;
   border-radius: 20%;
 }
+.btn{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  height: 4rem;
+  width: 10rem;
+}
+.btn:hover{
+  background-color: #FEF2BF;
 
+}
 .game-over {
   background-color: red;
   opacity: 0.8;
@@ -151,6 +161,9 @@ a:hover {
   {
     font-size: 2.5rem;
 
+  }
+  .btn{
+    margin-top: 4rem;
   }
 
 
